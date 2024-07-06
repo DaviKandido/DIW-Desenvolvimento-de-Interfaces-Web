@@ -1,0 +1,11 @@
+{
+"cidades" : [
+    { "id": 1, "cidade": "Belo Horizonte", "estado": "MG", "populacao": 3800000 },
+    { "id": 2, "cidade": "São Paulo", "estado": "SP", "populacao": 1180000 },
+    { "id": 3, "cidade": "Rio de Janeiro", "estado": "RJ", "populacao": 5300000 },
+    { "id": 4, "cidade": "Curitiba", "estado": "PR", "populacao": 1200000 },
+    { "id": 5, "cidade": "Fortaleza", "estado": "CE", "populacao": 2100000 },
+    { "id": 6, "cidade": "Natal", "estado": "RN", "populacao": 1400000 },
+    { "id": 7, "cidade": "Sete Lagoas", "estado": "MG", "populacao": 300000 }
+ ]
+}

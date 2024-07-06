@@ -1,0 +1,244 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    color: #000000;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.menu-principal {
+    justify-content: space-around;
+    display: flex;
+    align-items: flex;
+    background-color: gainsboro;
+    
+}
+
+
+h1 {
+    font-size: larger;
+    margin-top: 20px;
+    margin-left: 20px;
+    border: 2px solid rgb(36, 33, 33);
+    padding: 10px 20px;
+    background-color: Gainsboro;
+}
+
+h2 {
+    padding-top: 20px;
+    margin-right: 3px;
+    font-size: large;
+    color: rgb(36, 33, 33);
+}
+
+section.perfil-info
+{
+    padding: 20px 20px;
+}
+
+.img-fluid 
+{
+    width: 150px;
+    border: 3px solid black;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+
+.txt-perfil
+{
+    color: #000000;
+    font-size: medium;
+}
+
+
+.icones {
+
+    margin-top: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .repositorios
+ {
+    margin: 50px 20px;
+ }
+
+.cartoes{
+    margin: 30px;
+    display: inline-flex;
+    width: 100%;
+    text-align:center;
+    justify-content: center;
+
+}
+
+.card-footer
+{
+    display: flex;
+    justify-content: center;
+}
+
+.conteudos-sugeridos
+{
+    margin: 50px 20px;
+}
+
+section.slider{
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.slider-content{
+    width: 400%;
+    height: auto;
+    display: flex;
+}
+
+.slider-content input{
+    display: none;
+}
+
+.slide-box{
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+.slide-box img{
+    width: 50%;
+    margin-left:20px ;
+}
+
+.nav-manual, .nav-auto{
+   position: absolute;
+   width: 100%;
+   margin-top: 25%; 
+   display: flex;
+   justify-content: center;
+}
+
+.nav-manual .manual-btn, .nav-auto div{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child), .nav-auto div:not(:last-child){
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: #000000;
+}
+
+#radio1 ~ .primeiro{
+    margin-left: 100px;
+    padding: 20px;
+
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 200px;
+    padding: 20px;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+}
+
+#radio3:checked ~ .primeiro{
+    margin-left: -50%;
+}
+
+#radio4:checked ~ .primeiro{
+    margin-left: -75%;
+}
+
+#radio5:checked ~ .primeiro{
+    margin-left: -100%;
+}
+ .colegas
+ {
+    margin: 50px 20px;
+ }
+
+.imagem-colegas
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-fluid-3
+{
+    border-radius: 50px;
+    border-color: gainsboro;
+}
+.img-fluid-4
+{
+    border-radius: 50px;
+    border-color: gainsboro;
+}
+.img-fluid-5
+{
+    border-radius: 50px;
+    border-color: gainsboro;
+}
+
+.footer{
+    font-size: smaller;
+}
+
+.icones{
+    padding: 0;
+}
+
+.botoes-tag{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1020px) 
+{
+    
+    .menu-principal
+    {
+        display: none;
+    }
+    .flex
+    {
+        margin: 20px;
+        flex-direction: column;
+    }
+    
+    .cartoes
+    {
+        margin-left: 8px;
+        flex-direction: column-reverse;
+    }
+
+    .slider{
+        
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+

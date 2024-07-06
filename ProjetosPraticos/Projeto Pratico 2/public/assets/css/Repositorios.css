@@ -1,0 +1,111 @@
+
+
+#menuToggle{
+
+    display: none;
+}
+
+.menu-icon{
+
+    display: none;
+}
+
+
+
+/*----------------Cabeçalho-----------------*/
+
+
+
+.cabecalho{
+
+    display: flexbox;
+
+}
+
+
+.cabecalho h5{
+
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    margin: 0% 0% 1% 0%;
+    padding: 0.05%;
+}
+.cabecalho h5 p{
+
+    text-align: center;
+    background-color:white;
+    margin: 1% 1% 1% 1%;
+    color: rgb(128, 124, 124);
+    padding: 0.3%;
+    
+}
+
+
+
+.cabecalho ul {
+
+    list-style-type: none;
+    display: block;
+    flex-wrap: wrap;
+
+}
+
+.cabecalho ul li {
+
+    display: inline-block;
+    padding: 1% 2% 1% 2%;
+    float: right;
+    
+
+}
+
+.cabecalho ul li a {
+
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.cabecalho ul li:first-child{
+
+    display: inline-block;
+    padding: 0px 40px 20px 40px;
+    float: left;
+
+
+}
+
+
+.Perfil{
+
+    display: block;
+    margin-top: 7%;
+}
+
+.Perfil #Titulo{
+
+        
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 0.5%;
+}
+
+.Perfil .NomePerfil,p{
+
+    margin: 1% 4% 1% 4%;
+    text-align: justify;
+}
+.topicos{
+
+    margin: 1% 1% 1% 4%;
+
+}
+
+
+
+.NomePerfil{
+
+    color: rgb(122, 122, 247);
+}

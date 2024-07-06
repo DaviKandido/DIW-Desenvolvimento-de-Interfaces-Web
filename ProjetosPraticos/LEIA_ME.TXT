@@ -1,0 +1,12 @@
+O JSONServer esta funcionando via NODE.JS:
+
+Caso for usar o NODE e no terminal de: npm start, e comente a URL do JSONServer pelo Replit, caso já não esteja comentada
+
+Caso for usar o REPLIT faça um fork do JSONServe usado e comente a URL de http://localhost:3000
+descomentando a outra do REPLIT, no link altere para o seu novo link do JSONSERVER do replit, de RUN
+no Replit para que o JSONServe seja rodado
+
+Caso haja mais duvidas sobre o funcionamento
+entre em contato comigo: (31)973067259
+
+Teste Replit: https://replit.com/@davicandidopucm/Trabalho-Pratico-2-DIW

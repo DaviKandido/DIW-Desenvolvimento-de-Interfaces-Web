@@ -1,0 +1,62 @@
+{
+  "Conteudos-Sugeridos": [
+    {
+      "id": 0,
+      "Titulo": "Livro: Plataforma a Revolução da estrategia",
+      "Descricao": "Plataforma: A Revolução da Estratégia explora como empresas podem usar plataformas digitais para transformar seus modelos de negócio e estratégias competitivas.",
+      "URLfoto": "https://lh4.googleusercontent.com/proxy/7rCqkrfVtaF9-915uQtQzjuyCg9OL5Y2Bsqc5RORvWzv2FJssHSrPbRRv9ckLvSy5U3Nxv5H_eu0jCN0-YzvvuMLlzxjF6H9HcWwKONOD5FSYrf72myDe3l4LxIrmifyn8co8c8IVAvM99NjQRu5D42FwpFwk3qISB3dog",
+      "URLconteúdo": "https://www.amazon.com.br/Plataforma-Revolu%C3%A7%C3%A3o-Estrat%C3%A9gia-Geoffrey-Parker/dp/8550806137"
+    },
+    {
+      "id": 1,
+      "Titulo": "Plataforma: Alura",
+      "Descricao": "Alura é uma plataforma brasileira de educação online que oferece cursos nas áreas de tecnologia, negócios e criatividade, voltados para desenvolvimento profissional e atualização de habilidades.",
+      "URLfoto": "https://tm.ibxk.com.br/2022/11/20/20165657757002.jpg",
+      "URLconteúdo": "https://www.alura.com.br/?utm_term=alura&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Institucional&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=386166608&hsa_grp=21666755648&hsa_ad=696280649243&hsa_src=g&hsa_tgt=aud-1839774380347:kwd-300088401&hsa_kw=alura&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjw97SzBhDaARIsAFHXUWDPatwuftN0uuq6pqsR_wQF_n55lpzzB4uiiQVw65ebwUA_2FFWFFEaAnKVEALw_wcB"
+    },
+    {
+      "id": 2,
+      "Titulo": "Plataforma: DankiCode",
+      "Descricao": "A Danki Code é uma plataforma brasileira focada em cursos online na área de desenvolvimento web, oferecendo conteúdo sobre programação, design e marketing digital, com o objetivo de capacitar alunos para atuarem no mercado digital.",
+      "URLfoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrRWgBnQAxadhvRnKvZSb2bBG61IHI6imJ-w&s",
+      "URLconteúdo": "https://dankicode.onlinecurso.pro/cursos/?src=gadspesqdankicursost1&gad_source=1&gclid=Cj0KCQjw97SzBhDaARIsAFHXUWDz3ipAZ4-eisfRXc8zTbKgkCh8v_Hzq5WB-KxzlFVaUhRtEwN2QxAaArzmEALw_wcB"
+    },
+    {
+      "id": 3,
+      "Titulo": "Canal: Curso em Video",
+      "Descricao": "O canal Curso em Vídeo é conhecido por oferecer cursos gratuitos de programação, design e informática, com o professor Gustavo Guanabara, focando em ensino acessível e de qualidade para estudantes e profissionais da área de tecnologia.",
+      "URLfoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKIRQgyioJ13mYcQje62W165LoGb1b2flhEw&s",
+      "URLconteúdo": "https://www.cursoemvideo.com/"
+    },
+    {
+      "id": 4,
+      "Titulo": "Palestras: TED Show",
+      "Descricao": "As palestras TED (Technology, Entertainment, Design) são renomadas por apresentarem ideias inovadoras e inspiradoras de líderes, pensadores e artistas de diversas áreas, promovendo conhecimento e reflexão global.",
+      "URLfoto": "https://www.napratica.org.br/wp-content/uploads/2016/07/TED-Talks-preferidas-de-Chris-Anderson.jpg",
+      "URLconteúdo": "https://www.ted.com/talks"
+    }
+  ],
+  "Colegas-de-Trabalho": [
+    {
+      "id": 0,
+      "URLfoto": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4UaJVYSCZgaQ6fXSOeSZ-GO_3IzFI1FBkPFWYYWFMk9AHX0mmuacUpQQrNVMadxAlteQ&usqp=CAU",
+      "Nome": "Gabriel",
+      "URLGit": "https://github.com/gonafritas",
+      "Descricao": "Colega de equipe na disciplina de introdução a computação, estamos trabalhando juntos em um jogo no Scratch."
+    },
+    {
+      "id": 1,
+      "URLfoto": "https://img.freepik.com/psd-gratuitas/ilustracao-3d-de-avatar-ou-perfil-humano_23-2150671138.jpg",
+      "Nome": "Augusto",
+      "URLGit": "https://github.com/Stambassi",
+      "Descricao": "Meu colega de equipe em T.I, me ajudou nos estudos com JSONServer e agora estamos trabalhando em um site."
+    },
+    {
+      "id": 2,
+      "URLfoto": "https://yt3.googleusercontent.com/jMQ_XPA06YqAhNxNtRYzZ8PgkD2vcW0xSVgRAcbhbf_2ssmDyN60vzQahxn0TjjqHgDMvkoRAA=s160-c-k-c0x00ffffff-no-rj",
+      "Nome": "Alexandre",
+      "URLGit": "https://github.com/Fan77asyy",
+      "Descricao": "Um colega que me ajudou nos estudos para a matéria de Cálculo 1, demonstra ser uma pessoa inteligente e responsável."
+    }
+  ]
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The movie - Cliente de API </title>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row" id="tela">
+
+        </div>
+
+    </div>
+    <SCript>
+
+        //Abordagem FETCH
+        
+        console.log ('Começou')
+
+        fetch("https://api.themoviedb.org/3/movie/popular?api_key=9c2c75d9d67c3f98cc98bb29450115c5&language=pt-BR")
+        .then(res => res.json())
+        .then(data => {
+
+            console.log ('Imprimindo filmes')
+
+            let str = ''
+            for(let i = 0; i < data.results.length; i++){
+                let filme = data.results[i];
+                str += `<div class="card col-md-4" style="width: 18rem;">
+                            <img src="https://image.tmdb.org/t/p/w500${filme.poster_path}" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">${filme.title}</h5>
+                                <p class="card-text">${filme.overview}</p>
+                                <a href="https://api.themoviedb.org/movie/${filme.id}" target ="_blanck" class="btn btn-primary">Mais detalhes</a>
+                            </div>
+                        </div>`
+            }
+            document.getElementById('tela').innerHTML = str
+        })
+
+        console.log ('Terminou')
+
+         // document.getElementById("tela").innerHTML = res;
+
+        // abordagem JQuery
+
+        // $.ajax({
+        //     url: "https://api.github.com/users/davikandido",
+        // })
+        // .done (Response => {console.log("Biografia: " + Response.bio)
+        //         document.getElementById('tela').innerHTML = Response.bio
+        // })
+
+        // Abordagem XHR
+        // let xhr = new XMLHttpRequest()
+        // xhr.onload  = function (event){
+        //     let data = JSON.parse (event.target.response)
+        //     console.log (data.bio)
+        //     document.getElementById('tela').innerHTML = data.bio
+        // }
+        // xhr.open ("GET", "https://api.github.com/users/davikandido")
+        // xhr.send()
+
+    </SCript>
+</body>
+</html>

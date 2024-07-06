@@ -1,0 +1,56 @@
+{
+    "perfil": {
+      "nome": "Bruna Borges",
+      "descricao": "Quase formando em Direito na UFMG, atualmente cursando Ciência da Computação na PUC Minas",
+      "cidade": "Belo Horizonte",
+      "urlPerfil": "https://github.com/brunabeborges",
+      "imagem": "assets/bruna.jpeg"
+    },
+    "repositorios": [
+      {
+        "urlImagem": "assets/c.png",
+        "url": "repo.html"
+      },
+      {
+        "urlImagem": "assets/c.png",
+        "url": "repo.html"
+      },
+      {
+        "urlImagem": "assets/c.png",
+        "url": "repo.html"
+      },
+      {
+        "urlImagem": "assets/c.png",
+        "url": "repo.html"
+      }
+    ],
+    "conteudos": [
+      {
+        "imagem": "assets/img.png"
+      },
+      {
+        "imagem": "assets/ciencias-da-computacao.jpeg"
+      },
+      {
+        "imagem": "assets/calculo.jpg"
+      },
+      {
+        "imagem": "assets/acad.jpg"
+      }
+    ],
+    "colegas": [
+      {
+        "imagem": "assets/colega2.jpg"
+      },
+      {
+        "imagem": "assets/colega3.jpg"
+      },
+      {
+        "imagem": "assets/Thomás Dória.jpg"
+      },
+      {
+        "imagem": "assets/Luísa Bacelar.jpg"
+      }
+    ]
+  }
+  

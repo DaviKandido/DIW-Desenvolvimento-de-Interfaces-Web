@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div id="tela">
+
+    </div>
+    
+</body>
+    <script>
+
+        function success (){
+            let obj = JSON.parse(this.responseText);        
+            let texto = `Name: ${obj.name} <br> Login: ${obj.login} <br> Biografia: ${obj.bio}`;
+            document.getElementById("tela").innerHTML = texto;
+            //console.log (JSON.parse(this.responseTex));
+        }
+        function error (err) {console.log("Erro:", err); }
+
+        var xhr = new XMLHttpRequest();
+        xhr.onload = success;
+        xhr.onerror = error;
+        xhr.open('GET', 'https://api.github.com/users/DaviKandido', true);
+        xhr.send();
+    </script>
+</html>

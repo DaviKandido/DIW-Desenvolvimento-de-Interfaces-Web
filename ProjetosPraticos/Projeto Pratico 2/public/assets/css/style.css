@@ -1,0 +1,682 @@
+
+*{
+    margin: 10;
+    padding: 0;
+}
+
+
+
+
+main{
+
+
+}
+
+body{
+
+    
+}
+
+
+
+
+
+/*----------------Cabeçalho-----------------*/
+
+
+
+
+@media screen and (max-width: 1050px) {
+    
+    .cabecalho{
+        
+    }
+
+    .cabecalho h5{
+
+        display: flex;
+        text-align: center;
+        background-color: rgb(214, 214, 214);
+        margin: 0% 0% 1% 0%;
+        padding: 0.05%;
+        align-items: flex-start; /* Alinha no topo verticalmente */
+
+    }
+    .cabecalho h5 p{
+    
+        text-align: center;
+        background-color:white;
+        margin: 1% 1% 1% 1%;
+        color: rgb(128, 124, 124);
+        padding: 0.3%;
+        
+    }
+
+
+    
+    
+    nav.cabecalho ul {
+
+      flex-direction: row;
+    }
+  
+    nav.cabecalho li {
+      
+        list-style-type: none;
+        margin: 5% 15% 5% 5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0px;
+        left: 0px;
+        flex-direction: column;
+  
+    
+    }
+  }
+
+
+    /*------------Fonte Awerson------------*/
+
+
+    /*O Fonte Awerson encontra se com um erro na biblioteca que impede de seus
+    icones aparecerem  quando não checados o que impossibilitou seu uso, sendo como solução
+    apenas manter o menu fixo no mobille*//*
+
+
+    .cabecalho{
+
+        display: flex;
+        position: fixed;
+        flex-wrap: wrap;
+        align-content: center;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        background-color: red;
+        background-color: rgba(0, 0, 0, 0.7);
+        overflow: hidden;
+
+
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+        transition: height 0.3s;
+
+    }
+
+    .cabecalho li{
+
+    display: block;
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    align-content: center;
+
+
+    }
+
+    .cabecalho li a{
+
+        display: block;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .cabecalho p:first-child{
+
+        display: none;
+
+    }
+
+    .menu-icon{
+
+        display: block;
+        color: white;
+        width: 50px;
+        height: inherit;
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        line-height: 60px;
+        z-index: 999;
+
+    }
+    
+    .menu-icon i{
+
+        font-size: 1.7em;
+        
+    }
+
+    #menuToggle:checked ~ label i:nth-child(2){
+
+        display: block;
+
+    }
+
+    #menuToggle:checked ~ label i:first-child{
+
+        display: none;
+
+    }
+
+
+    #menuToggle:not(checked) ~ label i:first-child{
+
+        display: block;
+
+    }
+
+    #menuToggle:not(checked) ~ label i:nth-child(2){
+
+        display: none;
+
+    }
+
+    #menuToggle:checked{
+
+         height: 100%;
+    }
+
+*/
+
+@media screen and (min-width: 1050px) {
+
+
+.cabecalho h5{
+
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    margin: 0% 0% 1% 0%;
+    padding: 0.05%;
+}
+.cabecalho h5 p{
+
+    text-align: center;
+    background-color:white;
+    margin: 1% 1% 1% 1%;
+    color: rgb(128, 124, 124);
+    padding: 0.3%;
+    
+}
+
+
+
+.cabecalho ul {
+
+    list-style-type: none;
+    display: block;
+    flex-wrap: wrap;
+
+}
+
+.cabecalho ul li {
+
+    display: inline-block;
+    padding: 1% 2% 1% 2%;
+    float: right;
+    
+
+}
+
+.cabecalho ul li a {
+
+    text-decoration: none;
+    color: white;
+    
+
+}
+
+.cabecalho ul li:first-child{
+
+    display: inline-block;
+    padding: 0px 40px 20px 40px;
+    float: left;
+
+
+}
+
+}
+
+
+
+
+
+/*----------------Perfil-----------------*/
+
+
+/* -------------Tela MENOR------------------ */
+
+@media screen and (max-width: 1415px) {
+
+
+    
+.Perfil{
+
+    display: inline-block;
+}
+
+
+.Perfil h3{
+
+    margin: 0% 0% 2% 0%;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 0.5%;
+}
+
+.Perfil .NomePerfil{
+
+display: flex;
+margin:  2% 20% 0%;
+}
+
+.Perfil img {
+
+    max-width: 400px;
+    width: 50%;
+    margin: 2% 25% 2%;
+    display: inline-block;
+    border-radius: 10%;
+    float: left;
+
+}
+
+.Perfil img:hover{
+    top: 1%;
+    transition: 0.3s all;
+    border-radius: 30%;
+    background-color: rgb(204, 204, 204);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+}
+
+.Perfil p {
+
+    inline-size: none;
+    width: 80%;
+    margin: 0.1% 0% 0.1% 10%;
+    text-align: justify;
+
+}
+
+.Perfil h6 {
+
+
+    margin: 0% 0% 0% 0%;
+    text-align: center;
+
+
+}
+
+
+.NomePerfil{
+
+    color: rgb(122, 122, 247);
+}
+
+.icones1 {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0% 0% -3% 0%;
+
+    max-width: 35%;
+
+}
+
+.icones2 {
+
+    display: inline-block;
+    list-style-type: none;
+    max-width: 25%;
+
+}
+
+.icones3 {
+    
+    display: inline-block;
+
+    list-style-type: none;
+    max-width: 35%;
+
+
+}
+
+.icones {
+
+    margin: 0% 5% 0% 0%;
+
+}
+
+
+
+}
+
+
+/* -------------Tela MAIOR------------------ */
+
+    @media screen and (min-width: 1415px) {
+    .Perfil{
+
+        display: inline-block;
+    }
+
+    .Perfil h3{
+
+        margin: 0% 0% 2% 0%;
+        text-align: center;
+        background-color: rgb(214, 214, 214);
+        padding: 0.5%;
+    }
+
+    .Perfil .NomePerfil{
+
+        margin: 0px 0% 0% 0%;
+    }
+
+
+    .Perfil img {
+
+        max-width: 550px;
+        width: 50%;
+        margin: 0.3% 3% 2% 3%;
+        display: inline-block;
+        float: left;
+        border-radius: 5%;
+        
+    }
+
+    .Perfil img:hover{
+        top: 1%;
+        transition: 0.3s all;
+        border-radius: 30%;
+        background-color: rgb(204, 204, 204);
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    }
+
+    .Perfil .ImagemPerfil {
+
+        box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+
+
+    }
+
+    .Perfil p {
+
+        display: inline-block;
+        inline-size: none;
+        width: 55%;
+        margin: 0.1% 0% 0.1% 0%;
+        text-align: justify;
+
+    }
+
+    .Perfil h6 {
+
+
+        margin: 0% 0% 1% 0%;
+        text-align: center;
+
+
+    }
+
+
+    .NomePerfil{
+
+        color: rgb(122, 122, 247);
+    }
+
+    .icones1 {
+
+     list-style-type: none;
+    float: left;
+    max-width: 18%;
+    margin: 0% 0% 1% 0%;
+
+    }
+
+    .icones2 {
+
+        list-style-type: none;
+    float: left;
+    max-width: 14%;
+    margin: 1% 0% 1% 0%;
+
+    }
+
+    .icones3 {
+
+    list-style-type: none;
+    float: left;
+    max-width: 20%;
+    margin: 0% 0% 1% 0%;
+
+    }
+
+    .icones{
+        margin: 0% 0% 0% 35%;
+
+    }
+
+    }
+
+
+/*--------------------Repositorios-------------------*/
+
+.repo h3 {
+    margin: 0 0 1% 0;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 0.5%;
+}
+
+.Repositorio .contemRepositorio {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%; /* Espaçamento entre os cards */
+    justify-content: center; /* Centraliza os cards */
+}
+
+.Repositorio .contemRepositorio .card {
+    border-radius: 3%;
+    flex: 1 1 18rem; /* Cards têm largura mínima de 18rem e crescem igualmente */
+    display: flex;
+    flex-direction: column; /* Para garantir que o conteúdo interno seja empilhado */
+    margin: 2% 0 2% 0;
+    padding: 2%;
+    box-sizing: border-box; /* Inclui padding e borda no tamanho total do card */
+    max-width: 22rem; /* Limita a largura máxima dos cards */
+    height: 30rem; /* Define uma altura fixa para os cards */
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+
+
+}
+
+.Repositorio .contemRepositorio .card:hover{
+    top: 1%;
+    transition: 0.3s all;
+    border-radius: 4%;
+    background-color: rgb(204, 204, 204);
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+    
+
+}
+
+.Repositorio .contemRepositorio .card img {
+    border-radius: 3%;
+    height: 50%; /* Ajusta a altura da imagem para metade do card */
+    object-fit: cover; /* Corta ou amplia a imagem para preencher o espaço */
+
+}
+
+.Repositorio .contemRepositorio .card .card-body {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between; /* Distribui o espaço igualmente */
+    text-align: center;
+    
+}
+
+.Repositorio .contemRepositorio .card h5,
+.Repositorio .contemRepositorio .card p {
+    margin: 0.5rem 0;
+}
+
+.Repositorio .contemRepositorio .card a {
+    margin-top: auto; /* Empurra o link do botão para o fundo do card */
+    align-self: center; /* Centraliza o botão horizontalmente */
+}
+
+.Repositorio a {
+    text-decoration: none;
+}
+
+.Repositorio p {
+    padding: 6% 2% 0% 2%;
+}
+
+
+
+
+/*----------------Conteudos sugeridos-----------------*/
+
+
+
+.Conteudos h3{
+
+    margin: 1% 0% -1% 0%;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 0.5%;
+
+}
+
+
+
+
+.contemConteudoSugeridos .carousel{
+
+    margin: 0% 2% 0% 2%;
+    padding: 4%;
+    display: flex;
+
+
+}
+
+.carousel p{
+
+ color: white;
+    
+    }
+
+.carousel img{
+
+ border-radius: 3%;
+           
+    }
+    
+
+ .carousel h5{
+
+ color: white;
+           
+     }
+
+.contemConteudoSugeridos .carousel-inner {
+
+color: black;
+}
+
+
+.contemConteudoSugeridos .carousel-item {
+
+color: black;
+}
+
+.contemConteudoSugeridos .carousel-caption{
+
+color: black;
+}
+
+
+
+
+/*----------------Colegas de Trabalho-----------------*/
+
+
+.Colegas h3{
+
+    margin: -1% 0% 2.5% 0%;
+    text-align: center;
+    background-color: rgb(214, 214, 214);
+    padding: 0.5%;  
+
+}
+
+.Colegas .contemColegas {
+ 
+    display: flex;
+}
+
+.Colegas .contemColegas .card{
+
+    border-radius: 3%;
+    padding: 2% 2% 2% 2%;
+    margin: -2% 0% -10% 2%;
+}
+
+.Colegas .contemColegas .card:hover{
+    top: 1%;
+    transition: 0.3s all;
+    border-radius: 4%;
+    background-color: rgb(204, 204, 204);
+    box-shadow: 10px 10px 10px rgba(0,0,0,0)
+
+}
+
+.contemRepositorio .card{
+
+    padding: 2% 2% 4% 2%;
+}
+
+.Colegas .contemColegas img{
+    
+    border-radius: 2%;
+
+
+
+}
+
+
+/*------------------Rodapé-------------------*/
+
+
+footer{
+
+
+    background-color: black;
+    color: white;
+    margin: 5% 0% 0% 0%;
+    padding: 2%;
+    clear: both;
+}
+
+footer :first-child{
+
+    margin: 0% 0% 1% 0%;
+}
+
+footer :nth-child(3){
+
+    float: right;
+}
+
+footer p{
+
+    margin: 0% 0% 0% 0%;
+}

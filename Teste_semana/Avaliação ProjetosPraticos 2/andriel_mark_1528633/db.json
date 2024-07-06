@@ -1,0 +1,34 @@
+{
+    "conteudoSugerido": [
+        {
+            "id": 1,
+            "image": "https://img.freepik.com/vetores-premium/formula-matematica-calculo-matematico-no-quadro-negro-da-escola-algebra-e-geometria-ciencia-giz-padrao-conceito-educacao-vetorial-analise-cientifica-calculo-de-numeros-conhecimento-complexo_102902-3216.jpg?w=1060",
+            "title": "CÁLCULO",
+            "description": "MATÉRIA QUE CURTO BASTANTE"
+        },
+        {
+            "id": 2,
+            "image": "https://static.todamateria.com.br/upload/ha/nd/handebol-og.jpg",
+            "title": "HANDEBOL",
+            "description": "ESPORTE QUE AMO PRATICAR"
+        },
+        {
+            "id": 3,
+            "image": "https://yt3.googleusercontent.com/LXe2UQzrdU8Ggqm10g-9hgKt-jQkUSBRg6JGRdhiIkd0Znfx9PKYKgdKFTmMr1l7faXRdW8Msg=s900-c-k-c0x00ffffff-no-rj",
+            "title": "CRUZEIRO",
+            "description": "CLUBE DO CORAÇÃO"
+        },
+        {
+            "id": 4,
+            "image": "https://blog.sympla.com.br/wp-content/uploads/2023/07/festas-de-fim-de-ano.jpg",
+            "title": "FESTAS",
+            "description": "MEU INTERESSE POR ME DIVERTIR"
+        },
+        {
+            "id": 5,
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK6XQF8LTeMF_6ieJsH-uO6od4uJYRJnlj7w&s",
+            "title": "PUCMINAS",
+            "description": "FACULDADE QUE FAÇO"
+        }
+    ]
+}
