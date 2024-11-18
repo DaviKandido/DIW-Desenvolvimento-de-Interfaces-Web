@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudos de jquery</title>
+</head>
+<body>
+    
+    <p><a href="http://www.google.com" id="google" target="_blank">Link</a></p>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script >
+        $(document).ready(function(){
+            $("#google").click(function(evento){
+                alert("O link foi clicado");
+
+                evento.preventDefault();
+            })
+        })
+        
+    </script>
+</body>
+</html>
